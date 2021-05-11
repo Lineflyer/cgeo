@@ -37,7 +37,7 @@ import org.apache.commons.lang3.StringUtils;
 
 final class LCApi {
 
-    private static final Boolean minimalFunction = true;
+    private static final Boolean minimalFunction = false;
 
     private static final SynchronizedDateFormat DATE_FORMAT = new SynchronizedDateFormat("yyyy-MM-dd", Locale.getDefault());
     @NonNull
